@@ -16,6 +16,7 @@ public class AppConfig {
         dataSource.setUrl("jdbc:mysql://localhost:3306/ride_tracker");
         dataSource.setUsername("root");
         dataSource.setPassword("admin");
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 
         return dataSource;
     }
